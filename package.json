@@ -1,0 +1,26 @@
+{
+  "name": "prelim",
+  "version": "1.0.0",
+  "description": "Prelim Exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgomera/GomeraLahoraPrelimExam.git"
+  },
+  "keywords": [
+    "Prelim",
+    "Exam"
+  ],
+  "author": "gomeraLahora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgomera/GomeraLahoraPrelimExam/issues"
+  },
+  "homepage": "https://github.com/rgomera/GomeraLahoraPrelimExam#readme",
+  "dependencies": {
+    "pg": "^8.6.0"
+  }
+}
