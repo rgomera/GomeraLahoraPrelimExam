@@ -4,7 +4,7 @@ const pool = require('./db'); // load/import the pool libraries that was written
 pool.query('SELECT * FROM "PrelimExam"."GL_supplier"', (err, res) => {
     try {
         console.log(res.rows);
-    } catch (error) {
+    } catch (err) {
         console.log(err.message);
     }
 });
